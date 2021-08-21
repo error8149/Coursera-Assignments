@@ -15,7 +15,7 @@ body{
 
     background-color: wheat;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 0 10px 10px ;
 
 }
@@ -26,6 +26,7 @@ body{
     text-align: center;
     margin: 0 ;
     padding: 8px;
+     border: 2px solid black;
 }
 p{
     font-family: arial;
@@ -39,6 +40,7 @@ margin-left:8%;
 #b2{
    background-color: rebeccapurple;
    color: wheat;
+     border: 2px solid black;
     float: right;
     text-align: center;
     margin: 0 ;
@@ -48,6 +50,7 @@ margin-left:8%;
    background-color: yellow;
    color: blue;
    float: right;
+     border: 2px solid black;
     text-align: center;
     margin: 0 ;
     padding: 8px;
@@ -73,7 +76,7 @@ margin-left:8%;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .col-sm-12{
   float: left;
   width: 100%;
